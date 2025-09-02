@@ -8,7 +8,7 @@ input = input!.Trim().ToLower();
 
 StringBuilder sb = new();
 
-for (int i = input.Length - 1; i < input.Length && i >= 0; i--)
+for (int i = input.Length - 1; i >= 0; i--)
 {
     sb.Append(input[i]);
 }
