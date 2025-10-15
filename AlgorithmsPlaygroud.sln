@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatedCharacter",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatedCharacterMultiplesQueries", "FirstNonRepeatedCharacterMultiplesQueries\FirstNonRepeatedCharacterMultiplesQueries.csproj", "{E382C702-EA73-4DC0-9447-67B2BE853385}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatedCharacterMultiplesQueriesLargeDataset", "FirstNonRepeatedCharacterMultiplesQueriesLargeDataset\FirstNonRepeatedCharacterMultiplesQueriesLargeDataset.csproj", "{B5C1D790-4C2D-455D-9A74-3BB64E9347F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E382C702-EA73-4DC0-9447-67B2BE853385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E382C702-EA73-4DC0-9447-67B2BE853385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E382C702-EA73-4DC0-9447-67B2BE853385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C1D790-4C2D-455D-9A74-3BB64E9347F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C1D790-4C2D-455D-9A74-3BB64E9347F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C1D790-4C2D-455D-9A74-3BB64E9347F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C1D790-4C2D-455D-9A74-3BB64E9347F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
