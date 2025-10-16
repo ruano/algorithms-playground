@@ -8,7 +8,7 @@ foreach (var item in stream)
 
     foreach (var itemQueue in queue)
     {
-        Console.Write(itemQueue + " ");        
+        Console.Write(itemQueue + " ");
     }
 
     var resultChar = nonRepeatedChar == '\0' ? "none" : nonRepeatedChar.ToString();
@@ -39,3 +39,24 @@ static char FirstNonRepeatedCharacterFromQueue(Queue<char> queue, char c)
 
     return '\0';
 }
+
+// ---------- ChatGPT solution below ----------
+//const string stream = "abcbad";
+
+//Queue<char> queue = new();
+//Dictionary<char, int> counts = new();
+
+//foreach (var c in stream)
+//{
+//    counts[c] = counts.GetValueOrDefault(c) + 1;
+//    queue.Enqueue(c);
+
+//    // remove da frente da fila tudo que não é mais único
+//    while (queue.Count > 0 && counts[queue.Peek()] > 1)
+//        queue.Dequeue();
+
+//    var result = queue.Count > 0 ? queue.Peek().ToString() : "none";
+//    Console.WriteLine($"{c} -> {result}");
+//}
+
+//Console.ReadKey();
